@@ -1,0 +1,15 @@
+# ignore all files starting with .
+.*
+
+# track samples (for example .htaccess.sample or wp-config.sample)
+!*.sample
+
+# track these config files (i.e. do NOT ignore it).
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.github
+
+# Ignore PhpStorm files
+.idea
+
